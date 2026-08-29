@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ditto POS KDS Demo</string>
+
+    <string name="navigation_label_pos">POS</string>
+    <string name="navigation_label_kds">KDS</string>
+    <string name="navigation_label_location">Locations</string>
+
+    <string name="button_cancel_order">Cancel</string>
+    <string name="button_pay">Pay</string>
+    <string name="label_total">Total</string>
+    <string name="navigation_drawer_label_ditto_tools">Ditto Tools</string>
+    <string name="current_order_id">Order: %1$s</string>
+    <string name="kds_ticket_header">%1$s #%2$s</string>
+    <string name="ticket_paid_description">Check Mark</string>
+    <string name="location_selection_title">Please Select Location</string>
+    <string name="hamburger_menu">Menu</string>
+    <string name="navigation_drawer_label_advanced_settings">Advanced Settings</string>
+    <string name="settings_location_section_header">Location</string>
+    <string name="advanced_settings_title">Advanced Settings</string>
+    <string name="kds_empty_title">No active orders</string>
+    <string name="kds_empty_description">Orders entered in POS will appear here.</string>
+
+</resources>
