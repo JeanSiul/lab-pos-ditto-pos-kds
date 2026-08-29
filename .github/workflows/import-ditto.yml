@@ -1,6 +1,9 @@
 name: Import DittoPOS upstream
 
 on:
+  push:
+    paths:
+      - ".github/workflows/import-ditto.yml"
   workflow_dispatch:
 
 permissions:
