@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm --prefix web-demo install && npm --prefix web-demo run build",
+  "outputDirectory": "web-demo/dist",
+  "installCommand": "echo skipping-root-install"
+}
