@@ -1,9 +1,9 @@
 name: Import DittoPOS upstream
 
 on:
-  push:
+  pull_request:
     paths:
-      - ".github/workflows/import-ditto.yml"
+      - ".benchmark/import-trigger.txt"
   workflow_dispatch:
 
 permissions:
@@ -17,6 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: main
 
       - name: Clone upstream
         run: git clone --depth 1 https://github.com/getditto/demoapp-pos-kds.git /tmp/upstream
